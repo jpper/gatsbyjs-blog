@@ -1,16 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql, StaticQuery } from "gatsby"
 import Post from "../components/Post"
-import { Row, Col } from "reactstrap"
-import Sidebar from "../components/Sidebar"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout pageTitle="Welcome to the Blog!">
     <SEO title="Home" keywords={["gatsby", "application", "react"]} />
-    <h1>Welcome to the Blog!</h1>
     <StaticQuery
       query={indexQuery}
       render={data => {
