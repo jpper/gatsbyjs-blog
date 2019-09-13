@@ -4,6 +4,8 @@ date: 2018-09-12 07:00:00
 author: 'Jonathan Perry'
 path: '/first-post'
 image: ../../images/javascript.jpg
+tags:
+- code
 ---
 
 I hope this post encourages somebody! I think the analogy of life, especially the Christian one, as a marathon, is a rather accurate one. We are all running a race, and it is not easy. However, if you set yourself a habit of physically running every day, things get easier over time. I've been struggling over the last 5 months or so to get even the most basic job searching app up and running. Getting back into the software development field, and improving my Japanese and programming skills enough to be a little dangerous is coming along, but not very quickly.

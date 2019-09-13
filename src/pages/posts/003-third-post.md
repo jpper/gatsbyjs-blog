@@ -4,6 +4,10 @@ date: 2018-09-14 07:00:00
 author: 'Jonathan Perry'
 path: '/third-post'
 image: ../../images/gatsby-astronaut.png
+tags:
+- code
+- design
+- tutorial
 ---
 
 I know, I know. That new technology seems sooo cool, right?? You've just got to learn React, Vue, Gatsby.js, cloud functions, the list goes on. But you've got to try to resist that urge.
