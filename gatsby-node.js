@@ -13,38 +13,38 @@ exports.onCreateNode = ({ node, actions }) => {
   }
 }
 
-exports.createPages = ({actions,graphql}) => {
-  const {createPage} = actions;
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions
   const singlePostTemplate = path.resolve("src/templates/single-post.js")
 
   return graphql(`
-      {
-        allMarkdownRemark{
-          edges{
-            node{
-              frontmatter{
-                author
-              }
-              fields{
-                slug
-              }
+    {
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              author
+            }
+            fields {
+              slug
             }
           }
         }
       }
+    }
   `).then(res => {
     if (res.errors) return Promise.reject(res.errors)
 
     const posts = res.data.allMarkdownRemark.edges
 
-    posts.forEach(({node}) => {
+    posts.forEach(({ node }) => {
       createPage({
         path: node.fields.slug,
         component: singlePostTemplate,
         context: {
           // Passing slug for template to use to get post
-          slug: node.fields.slug
-        }
+          slug: node.fields.slug,
+        },
       })
     })
   })
