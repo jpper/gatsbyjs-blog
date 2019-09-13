@@ -2,7 +2,6 @@
 title: 'Second Post: Get Uncomfortable'
 date: 2018-09-13 07:00:00
 author: 'Jonathan Perry'
-path: '/second-post'
 image: ../../images/javascript.jpg
 tags:
 - code

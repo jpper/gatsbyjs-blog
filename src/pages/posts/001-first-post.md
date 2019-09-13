@@ -2,7 +2,6 @@
 title: 'First Post: Little Victories'
 date: 2018-09-12 07:00:00
 author: 'Jonathan Perry'
-path: '/first-post'
 image: ../../images/javascript.jpg
 tags:
 - code

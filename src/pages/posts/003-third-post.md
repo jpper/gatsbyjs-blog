@@ -2,7 +2,6 @@
 title: 'Third Post: Stop Doing New Things'
 date: 2018-09-14 07:00:00
 author: 'Jonathan Perry'
-path: '/third-post'
 image: ../../images/gatsby-astronaut.png
 tags:
 - code
