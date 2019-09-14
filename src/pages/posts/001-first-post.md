@@ -1,7 +1,7 @@
 ---
 title: 'First Post: Little Victories'
 date: 2018-09-12 07:00:00
-author: 'Jonathan Perry'
+author: 'Jane Doe'
 image: ../../images/javascript.jpg
 tags:
 - code
