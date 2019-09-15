@@ -3,7 +3,7 @@ const authors = [
     name: "Jonathan Perry",
     imageUrl: "jonathan.jpg",
     bio:
-      "Jonathan has been a front-end and UI designer for less than one year, he is a brilliant artist",
+      "Jonathan is a full-stack web application developer, with experience in Angular, React, Firebase, and other technologies.",
     facebook: "https://www.facebook.com/jonnyramen",
     twitter: "https://www.twitter.com/jonnyramen",
     instagram: "https://www.instagram.com/jonnyramen",
@@ -14,7 +14,7 @@ const authors = [
     name: "Jane Doe",
     imageUrl: "jane.jpg",
     bio:
-      "Jane is a back-end developer, she specializes in security and her favorite stack is the MERN stack",
+      "Jane is a back-end developer. She specializes in security and her favorite stack is the MERN stack.",
     facebook: "https://www.facebook.com/jonnyramen",
     twitter: "https://www.twitter.com/jonnyramen",
     instagram: "https://www.instagram.com/jonnyramen",

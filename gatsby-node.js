@@ -20,9 +20,9 @@ exports.createPages = ({ actions, graphql }) => {
   const templates = {
     singPost: path.resolve("src/templates/single-post.js"),
     tagsPage: path.resolve("src/templates/tags-page.js"),
-    tagPosts: path.resolve('src/templates/tag-posts.js'),
-    postList: path.resolve("src/templates/post-list.js")
-
+    tagPosts: path.resolve("src/templates/tag-posts.js"),
+    postList: path.resolve("src/templates/post-list.js"),
+    authorPosts: path.resolve("src/templates/author-posts.js"),
   }
   return graphql(`
     {
@@ -89,16 +89,16 @@ exports.createPages = ({ actions, graphql }) => {
     // Create tag posts pages
     tags.forEach(tag => {
       createPage({
-        path: '/tag/${slugify}(tag)}',
+        path: "/tag/${slugify}(tag)}",
         component: templates.tagPosts,
         context: {
           tag,
-        }
+        },
       })
     })
     const postsPerPage = 2
     const numberOfPages = Math.ceil(posts.length / postsPerPage)
-    Array.from({length: numberOfPages}).forEach((_, index) => {
+    Array.from({ length: numberOfPages }).forEach((_, index) => {
       const isFirstPage = index === 0
       const currentPage = index + 1
 
@@ -110,8 +110,18 @@ exports.createPages = ({ actions, graphql }) => {
           limit: postsPerPage,
           skip: index * postsPerPage,
           currentPage,
-          numberOfPages
-        }
+          numberOfPages,
+        },
+      })
+    })
+    authors.forEach(author => {
+      createPage({
+        path: `/author/${slugify(author.name)}`,
+        component: templates.authorPosts,
+        context: {
+          authorName: author.name,
+          imageUrl: author.imageUrl,
+        },
       })
     })
   })
