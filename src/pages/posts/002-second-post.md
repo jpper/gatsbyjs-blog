@@ -1,6 +1,6 @@
 ---
-title: 'Second Post: Get Uncomfortable'
-date: 2018-09-13 07:00:00
+title: 'Get Uncomfortable'
+date: 2019-09-13 07:00:00
 author: 'Jonathan Perry'
 image: ../../images/javascript.jpg
 tags:
