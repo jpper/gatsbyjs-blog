@@ -22,4 +22,4 @@ I feel that more than ever, I'm being drawn to web application development, and 
 something like this blog here is already more than I even imagined I'd be able to do. But in order
 to start a business, I need to think of something new and profitable. In order to do that, I need
 to provide a service that people are going to want to use. My tentative plan is to continue to get
-more proficient with Angular, and build some kind of app on that framework.
+more proficient with Vue, and build some kind SNS/social media platform on that framework.
