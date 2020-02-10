@@ -5,29 +5,29 @@
   "version": "0.1.0",
   "author": "Jonathan Perry <ji.jonathanperry@gmail.com>",
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "disqus-react": "^1.0.7",
-    "gatsby": "^2.18.17",
-    "gatsby-image": "^2.2.18",
-    "gatsby-plugin-catch-links": "^2.1.9",
-    "gatsby-plugin-manifest": "^2.2.16",
+    "gatsby": "^2.19.12",
+    "gatsby-image": "^2.2.40",
+    "gatsby-plugin-catch-links": "^2.1.25",
+    "gatsby-plugin-manifest": "^2.2.41",
     "gatsby-plugin-offline": "^2.2.10",
-    "gatsby-plugin-react-helmet": "^3.1.7",
-    "gatsby-plugin-sass": "^2.1.14",
-    "gatsby-plugin-sharp": "^2.2.21",
-    "gatsby-source-filesystem": "^2.1.22",
-    "gatsby-transformer-remark": "^2.6.22",
-    "gatsby-transformer-sharp": "^2.2.14",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sass": "^2.1.28",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-remark": "^2.6.50",
+    "gatsby-transformer-sharp": "^2.3.14",
     "lodash": "^4.17.15",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "reactstrap": "^8.0.1"
+    "reactstrap": "^8.4.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   },
   "keywords": [
     "gatsby"
