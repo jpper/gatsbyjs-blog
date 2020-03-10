@@ -42,11 +42,11 @@ And pray in the Spirit on all occasions with all kinds of prayers and
 requests. With this in mind, be alert and always keep on praying for
 all the Lord's people.
 
-A couple finally takeaways I really just got from typing out that
+A couple of final takeaways I really just got from typing out that
 Scripture are that righteousness is indeed a part of the armor;
 I am definitely on-guard against becoming self-righteous and the
 last thing I want in my life is to be like a Pharisee and not
-practicing what I preach; that said, it is important to actually
+practicing what I preach. That said, it is important to actually
 be righteous and while not wise in your own eyes, having righteousness.
 Also that we should be praying all different kinds of prayers.
 
