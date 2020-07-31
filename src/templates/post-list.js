@@ -22,7 +22,10 @@ const postList = props => {
           fluid={node.frontmatter.image.childImageSharp.fluid}
         />
       ))}
-      <PaginationLinks currentPage={currentPage} numberOfPages={numberOfPages} />
+      <PaginationLinks
+        currentPage={currentPage}
+        numberOfPages={numberOfPages}
+      />
     </Layout>
   )
 }
